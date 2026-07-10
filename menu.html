@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sweet Crumbs | Cake Menu</title>
+
+<link rel="stylesheet" href="menu.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header>
+
+<div class="logo">
+
+<i class="fa-solid fa-cake-candles"></i>
+
+Sweet <span>Crumbs</span>
+
+</div>
+
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="#birthday">Birthday</a>
+
+<a href="#wedding">Wedding</a>
+
+<a href="#cupcake">Cupcakes</a>
+
+<a href="#pastry">Pastries</a>
+
+<a href="#special">Special</a>
+
+</nav>
+
+<a href="index.html" class="back-btn">
+
+<i class="fa-solid fa-arrow-left"></i>
+
+Back
+
+</a>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h4>Premium Bakery</h4>
+
+<h1>
+
+Our Delicious Cake Menu
+
+</h1>
+
+<p>
+
+Freshly baked cakes prepared using premium ingredients and beautiful handcrafted designs for every celebration.
+
+</p>
+
+<input
+type="text"
+id="search"
+placeholder="Search Cake...">
+
+</div>
+
+</section>
+
+<!-- ================= FILTER ================= -->
+
+<section class="filter">
+
+<button class="filter-btn active" data-filter="all">
+
+All
+
+</button>
+
+<button class="filter-btn" data-filter="birthday">
+
+Birthday
+
+</button>
+
+<button class="filter-btn" data-filter="wedding">
+
+Wedding
+
+</button>
+
+<button class="filter-btn" data-filter="cupcake">
+
+Cupcakes
+
+</button>
+
+<button class="filter-btn" data-filter="pastry">
+
+Pastries
+
+</button>
+
+<button class="filter-btn" data-filter="special">
+
+Special
+
+</button>
+
+</section>
+
+<!-- ================= MENU ================= -->
+
+<section class="menu">
+
+<!-- Cake 1 -->
+
+<div class="cake-card birthday">
+
+<img src="images/cake1.jpg">
+
+<h3>Chocolate Truffle</h3>
+
+<p>Rich Chocolate Cake</p>
+
+<h4>₹899</h4>
+
+<button onclick="window.location.href='index.html#contact'">
+    Order Now
+</button>
+
+</div>
+
+<!-- Cake 2 -->
+
+<div class="cake-card birthday">
+
+<img src="images/cake2.png">
+
+<h3>Black Forest</h3>
+
+<p>Premium Cream Cake</p>
+
+<h4>₹749</h4>
+
+<button>Order Now</button>
+
+</div>
+
+<!-- Cake 3 -->
+
+<div class="cake-card birthday">
+
+<img src="images/cake11.png">
+
+<h3>Red Velvet</h3>
+
+<p>Classic Red Velvet</p>
+
+<h4>₹699</h4>
+
+<button>Order Now</button>
+
+</div>
+
+<!-- Cake 4 -->
+
+<div class="cake-card wedding">
+
+<img src="images/cake12.jpg">
+
+<h3>Royal Wedding Cake</h3>
+
+<p>Three Layer Luxury Cake</p>
+
+<h4>₹1999</h4>
+
+<button>Order Now</button>
+
+</div>
+
+<!-- Cake 5 -->
+
+<div class="cake-card wedding">
+
+<img src="images/cake5.jpg">
+
+<h3>White Floral Cake</h3>
+
+<p>Premium Designer Cake</p>
+
+<h4>₹1199</h4>
+
+<button>Order Now</button>
+
+</div>
+
+<!-- Cake 6 -->
+
+<div class="cake-card wedding">
+
+<img src="images/cake6.jpg">
+
+<h3>Golden Wedding Cake</h3>
+
+<p>Luxury Theme Cake</p>
+
+<h4>₹1750</h4>
+
+<button>Order Now</button>
+
+</div>
+
+<!-- Cake 7 -->
+
+<div class="cake-card cupcake">
+
+<img src="images/cupcake1.jpg">
+
+<h3>Chocolate Cupcake</h3>
+
+<p>Soft Chocolate Cream</p>
+
+<h4>₹49</h4>
+
+<button>Order Now</button>
+
+</div>
+
+<!-- Cake 8 -->
+
+<div class="cake-card cupcake">
+
+<img src="images/cupcake2.jpg">
+
+<h3>Vanilla Cupcake</h3>
+
+<p>Fresh Vanilla Cream</p>
+
+<h4>₹49</h4>
+
+<button>Order Now</button>
+
+</div>
+
+<!-- Cake 9 -->
+
+<div class="cake-card cupcake">
+
+<img src="images/cupcake3.jpg">
+
+<h3>Strawberry Cupcake</h3>
+
+<p>Fruit Delight</p>
+
+<h4>₹49</h4>
+
+<button>Order Now</button>
+
+</div>
+
+<!-- Cake 10 -->
+
+<div class="cake-card pastry">
+
+<img src="images/pastry1.jpg">
+
+<h3>Chocolate Pastry</h3>
+
+<p>Belgian Chocolate</p>
+
+<h4>₹99</h4>
+
+<button>Order Now</button>
+
+</div>
+
+<!-- Cake 11 -->
+
+<div class="cake-card pastry">
+
+<img src="images/pastry2.jpg">
+
+<h3>Oreo Pastry</h3>
+
+<p>Cookies & Cream</p>
+
+<h4>₹99</h4>
+
+<button>Order Now</button>
+
+</div>
+
+<!-- Cake 12 -->
+
+<div class="cake-card pastry">
+
+<img src="images/pastry3.jpg">
+
+<h3>Fruit Pastry</h3>
+
+<p>Fresh Fruit Cream</p>
+
+<h4>₹119</h4>
+
+<button>Order Now</button>
+
+</div>
+
+<!-- Cake 13 -->
+
+<div class="cake-card special">
+
+<img src="images/special11.jpg">
+
+<h3>Heart Cake</h3>
+
+<p>Anniversary Special</p>
+
+<h4>₹899</h4>
+
+<button>Order Now</button>
+
+</div>
+
+<!-- Cake 14 -->
+
+<div class="cake-card special">
+
+<img src="images/speacial2.jpg">
+
+<h3>Photo Cake</h3>
+
+<p>Custom Printed Cake</p>
+
+<h4>₹999</h4>
+
+<button>Order Now</button>
+
+</div>
+
+<!-- Cake 15 -->
+
+<div class="cake-card special">
+
+<img src="images/special3.jpg">
+
+<h3>Theme Cake</h3>
+
+<p>Kids Favourite Cake</p>
+
+<h4>₹1199</h4>
+
+<button>Order Now</button>
+
+</div>
+
+</section>
+
+<!-- ================= OFFER ================= -->
+
+<section class="offer">
+
+<h2>
+
+🎉 Weekend Offer
+
+</h2>
+
+<p>
+
+Get Flat 20% OFF on all Birthday Cakes
+
+</p>
+
+<a href="index.html">
+
+Shop Now
+
+</a>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<h2>
+
+Sweet <span>Crumbs</span>
+
+</h2>
+
+<p>
+
+Freshly baked with love ❤️
+
+</p>
+
+<div class="social">
+
+<i class="fab fa-facebook"></i>
+
+<i class="fab fa-instagram"></i>
+
+<i class="fab fa-youtube"></i>
+
+<i class="fab fa-x-twitter"></i>
+
+</div>
+
+<p>
+
+© 2026 Sweet Crumbs Bakery
+
+</p>
+
+</footer>
+
+<script src="menu.js"></script>
+
+</body>
+</html>
